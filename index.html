@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Go Champ! Mini Games</title>
+<meta name="description" content="Go Champ! – colorful mini games for all ages.">
+<link rel="icon" href="icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&family=Lilita+One&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#2a1a4a; --card:#fff7d6; --gold:#ffd54a; --purple:#5a3fd8; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:'Fredoka',system-ui,sans-serif; color:var(--ink);
+         background:linear-gradient(180deg,#7fd3ff 0%,#b7e8ff 45%,#ffe9a8 100%); min-height:100vh; }
+  main { max-width:720px; margin:0 auto; padding:32px 16px 48px; text-align:center; }
+  .icon { width:132px; height:132px; border-radius:30px; border:5px solid var(--ink);
+          box-shadow:0 8px 0 rgba(42,26,74,.25); }
+  h1 { font-family:'Lilita One',sans-serif; font-size:56px; margin:16px 0 4px; color:var(--gold);
+       -webkit-text-stroke:3px var(--ink); paint-order:stroke fill; text-shadow:0 5px 0 rgba(42,26,74,.3); }
+  .tag { font-size:20px; font-weight:700; margin:0 0 24px; }
+  .banner { width:100%; border-radius:20px; border:4px solid var(--ink); box-shadow:0 8px 0 rgba(42,26,74,.25); }
+  .card { background:var(--card); border:4px solid #543847; border-radius:20px; padding:20px 22px; margin-top:24px; text-align:left; }
+  .card h2 { font-family:'Lilita One',sans-serif; color:var(--purple); margin:0 0 8px; font-size:26px; }
+  ul { margin:0; padding-left:22px; line-height:1.7; font-size:17px; }
+  .btn { display:inline-block; margin:8px 6px 0; padding:12px 22px; border-radius:16px; border:3px solid var(--ink);
+         background:linear-gradient(#5fd17f,#2fa556); color:#fff; font-weight:700; text-decoration:none; box-shadow:0 5px 0 #1e7a3c; }
+  .btn.alt { background:linear-gradient(#a58bff,#6c4ee8); box-shadow:0 5px 0 #3b2394; }
+  footer { margin-top:28px; font-size:14px; opacity:.8; }
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="icon.png" alt="Go Champ! icon">
+  <h1>Go Champ!</h1>
+  <p class="tag">Colorful mini games for the whole family · Mini jogos coloridos para toda a família</p>
+  <img class="banner" src="banner.png" alt="Go Champ! mini games">
+
+  <div class="card">
+    <h2>Games · Jogos</h2>
+    <ul>
+      <li><b>SHERIFF SPLASH</b> – Wild West water-gun adventure</li>
+      <li><b>SKY HERO</b> – fly through 10 worlds and beat the bosses</li>
+      <li><b>RAIL RUSH</b> – mine-cart race full of surprises</li>
+      <li><b>SNOW BLAST</b>, <b>FOREST MEMORY</b> and <b>SNOW RIDER</b></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Safe for kids · Seguro para crianças</h2>
+    <ul>
+      <li>No chat and no typed names · Sem chat e sem nomes digitados</li>
+      <li>Only optional rewarded ads, child-directed · Só anúncios premiados opcionais, modo infantil</li>
+      <li>Online ranking and cloud save with Google Play Games (optional) · Ranking online e save na nuvem com o Google Play Games (opcional)</li>
+    </ul>
+  </div>
+
+  <p>
+    <a class="btn" href="privacy.html">Privacy Policy · Política de Privacidade</a>
+    <a class="btn alt" href="mailto:viensfield@gmail.com">Contact · Contato</a>
+  </p>
+  <footer>© 2026 gochamp.dev</footer>
+</main>
+</body>
+</html>
